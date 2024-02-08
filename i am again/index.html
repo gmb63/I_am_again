@@ -1,0 +1,240 @@
+<!--Welcome to "I am...a project in becoming!" Read through these code comments for instructions on how to design a website where audiences can learn about who you are and where you're going. Along the way, you'll learn everything you need to know to get started working with code.-->
+
+<!--HTML pages start by calling <!DOCTYPE html> and designating a language. In this case, United States English. Search engines, browsers, and screen readers use this information to deliver content specific to user needs.-->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<!--The <head> element contains additional information for search engines and browsers.--> 
+<!--The <title> tag controls the name on the browser tab.-->
+  <title>I am here...</title>
+<!--This website follows the Unicode 8-bit character set that standardizes all of the letters from all of the languages in the world--emojis too!-->
+  <meta charset="UTF-8">
+<!--This viewport <meta> tag standard tells browsers how to display the website across different sized screens.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--This <link> (rel)ates to the cascading style sheet or CSS in your project folder. Web designers use CSS to add styling to a website. Using CSS saves time and results in fewer lines of code.-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!--The <body> element organizes all of the code and content that actually appears on a screen. You can change the background color by opening the style.css document in the body tag properties. Choose a color with enough contrast for your audience. Neutral colors work best for the greatest number of viewers.-->
+<body>
+
+<!--Developers refer to this next section as the "hero image." 
+Fill in the blank between <h1>"I am..."</h1> and see what happens.
+To replace this image, simply find and delete the hero.jpg file in the project folder. Then add a new .jpg hero image to the project folder and name it hero.jpg. Select an image at least 1200px in width to avoid pixilation. If an image is larger than 1200px, you will want to resize it speed up load time. Crop image height to ensure desired fit.--> 
+
+<!--The "hero-image" properties are controlled on the style.css document. We know this because the <div> calls the class="hero-image". You can open the style.css file and find the hero-image class to edit its properties. Alternatively you can edit the file height by cropping the image to fit within the hero-image.--> 
+
+<div class="hero-image">
+  <div class="hero-text">
+      <h1>I am Georjette...</h1>
+      <h2>A Project in Becoming</h2>
+  </div>
+</div>
+
+<!--Privacy is important factor to consider in online composing. How much do you want others to know about you and what images do you want circulating on the internet? Choose your images and other content carefully and be thoughtful about how your content could impact others. If you are concerned about issues of privacy, you can always use stock images, or get creative in other ways.-->
+
+<!--We'll use this first textblock to do a little writing about home and community. These concepts have different meanings for all of us. It might be useful to imagine you are writing for someone far, far away...because your online audience is everywhere.-->
+<div class="textblock" style="text-align: left">
+<!--"Align text left/right/center using inline style properties. To improve accessibility, always left-align text longer than three lines.-->
+  <h2>Home and Community</h2>
+    <h3>I am still thinking about the text to include here, but I suppose something about Pittsburgh, my children and husband, and my world more abstractly would be appropriate.</h3>
+</div>
+
+<!--Replace the image in this picture frame. Control image width using inline styling. Adjust image size to 1200-600px depending on its need to scale across a screen. Remove or adjust the frame using the frame class on style.css.-->
+<div>
+  <img class="frame" src="Apple Fam.jpeg" alt="describe the image HERE for accessibility purposes" style="width:70%;"></img>
+<!--Add alt="text" image descriptions for visually impaired individuals using screen readers. Describe your image as clearly and succinctly as possible. Add captions. They provide another important layer of accessibility.-->
+    <div class="caption"><i>Apple picking with my favorite people</i></div>
+</div>
+<!-- Go to style.css page to experiment with "frame class" properties like "background/padding/border/margin." You can also experiment with image filters and "border-radius."-->
+
+<!--So, what exactly are you into? Take some time to explain your various passions.-->
+<div class="textblock" style="text-align: left">
+  <h2>Interests and Activities</h2>
+    <h3>A few of my favorite things are reading, baking, tending to my many house plants, traveling, and dancing and playing with my girls.</h3>
+</div>
+
+<!--A photo grid uses rows and column classes to create divisions that scale with across devices. The style.css page provides other attributes that will adjust the image depending on the size of screens. Add images to your project folder and make sure the file name/type matches in your code. Resize images to less than 600px in width. This will improve load time accessibility. Don't forget to add alt="text"-->
+
+<!--Add images related to your interests and activities.-->
+<div class="photogrid">
+  <div class="row">
+      <div class="column">
+          <img src="D and M yard.jpeg" alt="girls playing in the yard">
+          <img src="Deirdre dancing lights.jpeg" alt="D dancing">
+      </div>
+      <div class="column">
+          <img src="Oregon Girls and I.jpeg" alt="girls and I">
+          <img src="Maeve and I.jpeg" alt="Maeve and I">
+      </div>
+      <div class="column">
+          <img src="Deirdre heart cookie.jpeg" alt="Deirdre eating a cookie">
+          <img src="Girls and I Mad Faces.jpeg" alt="playful mad faces">
+      </div>
+  </div>
+      <p><i>A few pictures of my world.</i></p>
+  </div>
+  
+
+<!--We all seek entertainment in our leisure time. What entertains you? How does it connect or distract you from other parts of your life? What is good and bad about this consumption.-->
+<div class="textblock" style="text-align: left">
+  <h2>Entertainment</h2>
+    <h3>I really enjoy traveling and spending time with my family.  I like big cities and national parks, fine dining and unadorned natural spaces.  When I have free time, which is infrequent these days, I usually go for a walk, dance to all of the songs in the living room with my kids, or bake something, usually a quick bread, if only because it is quick.</h3>
+</div>
+
+<!--You can keep or replace this polaroid image with something else. You can find other elements like YouTube video players in the "code repository" at the bottom of this HTML page. Simply copy and paste the code snippets where you want them to appear on your website.-->
+<div class="polaroid">
+  <img src="Redwood Fam.jpeg" alt="describe the image HERE for accessibility purposes" style="width:100%">
+     <div class="polaroidcontainer">
+       <p><i>Family and I at the Redwood National Forest</i></p>
+     </div>
+</div>
+
+
+<!--Let's talk a little about the future. What kind of job or career would you like to pursue? What is your reasoning for going down this path? How might this job or career connect to the other areas about which we've written, home and community, interests and activities, and entertainment? Why is this job or career important to you or in general?-->
+<div class="textblock" style="text-align: left">
+  <h2>In the Future...</h2>
+    <h3>In the future, I suppose I should hope to have a better idea of what I want for my future in the future.  Right now it seems to change daily, but I am comfortable with that for now.  I resolved some time ago that I would have to comfortable with uncertainty for now, and I am trying to embrace that.</h3>
+</div>
+
+  <!--Like a hero image, a parallax window provides a degree of animation for your viewer.-->
+<div class="parallax"></div>
+  <div class="caption">
+    <p><i></i>Attempting to look contemplative in a very dark restaurant in Boston.</i></p>
+</div>
+
+<div class="logo">
+  <img src="Maeve balloon.jpeg" alt="Codela logo" style="width:25%;">
+    <p><b>generated with Codela and inspired by: <a href="https://www.newyorker.com/magazine/2023/03/06/the-end-of-the-english-major">This and more</a></b></p>
+    <p><i>Why make a spark when you can light a fire?</i></p>
+</div>
+    
+</body>
+</html>
+
+
+
+  
+  <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class CSS properties on style.css.
+
+
+    ***Add Text Block***
+
+    (Format textblock using inline styling: text-align: left, center, justify, right; Format text: Italics: <i>italics</i>; Bold: <b>bold</b>; Link Website: <a href="link">LinkName</a>; Link Asset: <a href=filename.pdf>FileName</a>; Line Breaks: <br></br>.
+
+  <div class="textblock" style="text-align: left">
+    <h2>Header</h2>
+       <h3>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+  </div>
+
+
+
+    ***Add Block Quote***
+
+    (Format text: Italics: <i>italics</i>; Bold: <b>bold</b>. For more stylings, find blockquote class on style.css)
+
+  <div class="blockquote" style="text-align: center">
+    <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+  </div>
+
+
+
+
+    ***Add Bulleted Points to Textblock***
+
+    (Change <ul> to <ol> to change from unordered list to ordered list. For more stylings, find the ul/li classes on style.css)
+
+  <div>
+    <ul>
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ul>
+  </div>
+
+
+
+    ***Add a Button***
+
+    (Clearly label button for accessibility purposes. If this is not possible, include: aria-label=”label for accessibility purposes.” For more stylings, find button class on style.css)
+
+  <div class="buttonbox">
+    <a href="https://codela-k12.github.io/codela-tools/" class="button" aria-label="">Button</a>
+  </div>
+
+
+
+    ***Add a Standard Image***
+
+    (Inline width. Control frame class properties with CSS.)
+
+  <div>
+    <img class="frame" src="code.jpg" alt="describe the image HERE for accessibility purposes" style="width:70%;"></img>
+      <div class="caption"><i>Add a caption</i></div>
+  </div>
+
+
+
+     ***Add a Polaroid***
+
+  <div class="polaroid">
+    <img src="polaroid.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%">
+      <div class="polaroidcontainer">
+        <p>Add a caption</p>
+      </div>
+  </div>
+
+
+
+    ***Add a Photo Grid***
+
+  <div class="photogrid">
+    <div class="row">
+        <div class="column">
+            <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+    </div>
+        <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Add a Parallax Window***
+
+    (To adjust window, find parallax class on style.css)
+
+  <div class="parallax"></div>
+    <div class="caption">
+      <p><i>Add a caption.</i></p>
+  </div>
+
+
+    ***Embed YouTube Video***
+
+  <div class="video">
+    <div class="video-container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/KVUBbM7pIYw?si=PIkNRIwkV2UqE1Td" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+      <p>Add a caption.</p>
+  </div>
+
+
+    ***Add a Copyright Footer***
+
+  <div class="footer">
+    <p><i>Copyright Your Name, Year.</i></p>
+  </div>
+
+
+
+    ***Need something that's not here? Go to https://www.w3schools.com to find all kinds of resources to facilitate your code learning.***
